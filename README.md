@@ -350,10 +350,9 @@ Built professional websites for two real companies, translating business service
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/tejas-pratap/tejas-pratap/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/tejaspratapvp-droid/tejaspratapvp-droid/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
 
 </div>
-
 ---
 
 ## `13` — CURRENT FOCUS
