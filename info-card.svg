@@ -1,0 +1,30 @@
+<svg viewBox="0 0 450 300" width="450" height="300">
+  <rect width="450" height="300" rx="18" fill="#0d1117"/>
+
+  <circle cx="25" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="45" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="65" cy="24" r="6" fill="#27c93f"/>
+
+  <text x="25" y="62" fill="#58a6ff" font-family="monospace" font-size="15">$ cat developer.txt</text>
+
+  <text x="25" y="95" fill="#ffffff" font-family="monospace" font-size="20" font-weight="bold">TEJAS V</text>
+
+  <text x="25" y="125" fill="#8b949e" font-family="monospace" font-size="13">Role: CSE Student</text>
+
+  <text x="25" y="150" fill="#8b949e" font-family="monospace" font-size="13">Focus: Python &amp; AI</text>
+
+  <text x="25" y="175" fill="#8b949e" font-family="monospace" font-size="13">Learning: DSA + ML</text>
+
+  <text x="25" y="200" fill="#8b949e" font-family="monospace" font-size="13">Building: Real-World Projects</text>
+
+  <text x="25" y="240" fill="#39d353" font-family="monospace" font-size="13">Status: AVAILABLE TO BUILD 🚀</text>
+
+  <text x="25" y="270" fill="#58a6ff" font-family="monospace" font-size="12">
+    github.com/tejaspratapvp-droid
+  </text>
+
+  <animate attributeName="opacity"
+           values="0.85;1;0.85"
+           dur="3s"
+           repeatCount="indefinite"/>
+</svg>
