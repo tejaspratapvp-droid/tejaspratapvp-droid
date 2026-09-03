@@ -7,34 +7,38 @@ import requests
 from bs4 import BeautifulSoup
 
 USERNAME = "tejaspratapvp-droid"
-
 URL = f"https://github.com/users/{USERNAME}/contributions"
 
 response = requests.get(
     URL,
-    headers={"User-Agent": "Mozilla/5.0"},
+    headers={
+        "User-Agent": "Mozilla/5.0"
+    },
     timeout=30,
 )
+
 response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 
 days = []
 
-for cell in soup.select("td.ContributionCalendar-day"):
-    day = cell.get("data-date")
-    level = cell.get("data-level")
+for cell in soup.select("td.ContributionCalendar-day[data-date]"):
+    day = cell.get("data-date", "")
+    level = cell.get("data-level", "0")
 
-    if not day:
-        continue
-
-    count = 0
-
+    # GitHub may put the contribution count in aria-label
+    # or inside a tooltip element.
     text = cell.get("aria-label", "")
-    match = re.search(r"(\d+)\s+contribution", text)
 
-    if match:
-        count = int(match.group(1))
+    if not text:
+        tooltip = cell.find("tool-tip")
+        if tooltip:
+            text = tooltip.get_text(" ", strip=True)
+
+    match = re.search(r"(\d+)\s+contribution", text, re.IGNORECASE)
+
+    count = int(match.group(1)) if match else 0
 
     days.append({
         "date": day,
@@ -42,15 +46,15 @@ for cell in soup.select("td.ContributionCalendar-day"):
         "level": int(level or 0),
     })
 
+Path("data").mkdir(exist_ok=True)
+
 output = {
     "username": USERNAME,
     "generated": date.today().isoformat(),
     "days": days,
 }
 
-Path("data").mkdir(exist_ok=True)
-
 with open("data/contributions.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2)
 
-print(f"Saved {len(days)} contribution days.")
+print(f"Saved {len(days)} contribution days.")s
