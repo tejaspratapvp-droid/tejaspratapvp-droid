@@ -1,0 +1,92 @@
+<svg viewBox="0 0 900 180" width="900" height="180">
+  <rect width="900" height="180" rx="18" fill="#0d1117"/>
+
+  <text x="25" y="35" fill="#ffffff" font-family="monospace" font-size="18" font-weight="bold">
+    GitHub Contribution Activity
+  </text>
+
+  <text x="25" y="58" fill="#8b949e" font-family="monospace" font-size="12">
+    BUILD • CODE • LEARN • REPEAT
+  </text>
+
+  <g transform="translate(25,75)">
+    <g fill="#161b22">
+      <rect x="0" y="0" width="14" height="14" rx="2"/>
+      <rect x="20" y="0" width="14" height="14" rx="2"/>
+      <rect x="40" y="0" width="14" height="14" rx="2"/>
+      <rect x="60" y="0" width="14" height="14" rx="2"/>
+      <rect x="80" y="0" width="14" height="14" rx="2"/>
+      <rect x="100" y="0" width="14" height="14" rx="2"/>
+      <rect x="120" y="0" width="14" height="14" rx="2"/>
+      <rect x="140" y="0" width="14" height="14" rx="2"/>
+      <rect x="160" y="0" width="14" height="14" rx="2"/>
+      <rect x="180" y="0" width="14" height="14" rx="2"/>
+      <rect x="200" y="0" width="14" height="14" rx="2"/>
+      <rect x="220" y="0" width="14" height="14" rx="2"/>
+      <rect x="240" y="0" width="14" height="14" rx="2"/>
+      <rect x="260" y="0" width="14" height="14" rx="2"/>
+      <rect x="280" y="0" width="14" height="14" rx="2"/>
+      <rect x="300" y="0" width="14" height="14" rx="2"/>
+      <rect x="320" y="0" width="14" height="14" rx="2"/>
+      <rect x="340" y="0" width="14" height="14" rx="2"/>
+      <rect x="360" y="0" width="14" height="14" rx="2"/>
+      <rect x="380" y="0" width="14" height="14" rx="2"/>
+      <rect x="400" y="0" width="14" height="14" rx="2"/>
+      <rect x="420" y="0" width="14" height="14" rx="2"/>
+      <rect x="440" y="0" width="14" height="14" rx="2"/>
+      <rect x="460" y="0" width="14" height="14" rx="2"/>
+      <rect x="480" y="0" width="14" height="14" rx="2"/>
+      <rect x="500" y="0" width="14" height="14" rx="2"/>
+      <rect x="520" y="0" width="14" height="14" rx="2"/>
+      <rect x="540" y="0" width="14" height="14" rx="2"/>
+      <rect x="560" y="0" width="14" height="14" rx="2"/>
+      <rect x="580" y="0" width="14" height="14" rx="2"/>
+      <rect x="600" y="0" width="14" height="14" rx="2"/>
+      <rect x="620" y="0" width="14" height="14" rx="2"/>
+      <rect x="640" y="0" width="14" height="14" rx="2"/>
+      <rect x="660" y="0" width="14" height="14" rx="2"/>
+      <rect x="680" y="0" width="14" height="14" rx="2"/>
+      <rect x="700" y="0" width="14" height="14" rx="2"/>
+      <rect x="720" y="0" width="14" height="14" rx="2"/>
+      <rect x="740" y="0" width="14" height="14" rx="2"/>
+      <rect x="760" y="0" width="14" height="14" rx="2"/>
+      <rect x="780" y="0" width="14" height="14" rx="2"/>
+      <rect x="800" y="0" width="14" height="14" rx="2"/>
+    </g>
+
+    <g fill="#39d353">
+      <rect x="20" y="22" width="14" height="14" rx="2"/>
+      <rect x="60" y="44" width="14" height="14" rx="2"/>
+      <rect x="100" y="22" width="14" height="14" rx="2"/>
+      <rect x="140" y="44" width="14" height="14" rx="2"/>
+      <rect x="200" y="22" width="14" height="14" rx="2"/>
+      <rect x="240" y="44" width="14" height="14" rx="2"/>
+      <rect x="300" y="22" width="14" height="14" rx="2"/>
+      <rect x="340" y="44" width="14" height="14" rx="2"/>
+      <rect x="400" y="22" width="14" height="14" rx="2"/>
+      <rect x="440" y="44" width="14" height="14" rx="2"/>
+      <rect x="500" y="22" width="14" height="14" rx="2"/>
+      <rect x="540" y="44" width="14" height="14" rx="2"/>
+      <rect x="600" y="22" width="14" height="14" rx="2"/>
+      <rect x="640" y="44" width="14" height="14" rx="2"/>
+      <rect x="700" y="22" width="14" height="14" rx="2"/>
+      <rect x="740" y="44" width="14" height="14" rx="2"/>
+      <rect x="800" y="22" width="14" height="14" rx="2"/>
+    </g>
+
+    <g fill="#26a641">
+      <rect x="40" y="66" width="14" height="14" rx="2"/>
+      <rect x="180" y="66" width="14" height="14" rx="2"/>
+      <rect x="280" y="66" width="14" height="14" rx="2"/>
+      <rect x="380" y="66" width="14" height="14" rx="2"/>
+      <rect x="480" y="66" width="14" height="14" rx="2"/>
+      <rect x="580" y="66" width="14" height="14" rx="2"/>
+      <rect x="680" y="66" width="14" height="14" rx="2"/>
+      <rect x="780" y="66" width="14" height="14" rx="2"/>
+    </g>
+  </g>
+
+  <text x="25" y="170" fill="#8b949e" font-family="monospace" font-size="11">
+    Activity visualization • Updated as projects grow
+  </text>
+</svg>
